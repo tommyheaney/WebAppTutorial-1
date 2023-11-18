@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pustosh";
+}
+
+<header>
+    <h1>PUSTOSH</h1>
+    <nav>
+        <ul>
+            <li><a href="#bio">Biography</a></li>
+            <li><a href="#discography">Discography</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#social">Social Media</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="video-container text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eloMuD0zqzw?si=N0-FXGxBAWd49pzj" title="Pustosh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+    <section id="bio">
+        <h2>Biography</h2>
+        <p>
+            A finished version of this website, which I created for the Ukrainian band Pustosh, can be viewed here:
+            <a href="https://pustosh.com/" target="_blank">Visit Pustosh</a>
+        </p>
+    </section>
+    <section id="discography">
+        <h2>Discography</h2>
+        <!-- Add album details here -->
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <!-- Add event details here -->
+    </section>
+    <section id="social">
+        <h2>Connect</h2>
+        <!-- Add social media links here -->
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Artist Name. All rights reserved.</p>
+</footer>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+s

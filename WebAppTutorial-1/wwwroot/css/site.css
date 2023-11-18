@@ -1,0 +1,63 @@
+﻿/* Styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.video-player {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+/* Section styling */
+section {
+    margin-top: 40px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+h2 {
+    transition: color 0.5s ease;
+}
